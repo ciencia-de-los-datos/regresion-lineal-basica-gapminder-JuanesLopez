@@ -120,8 +120,8 @@ def pregunta_04():
     from sklearn.metrics import mean_squared_error
 
     # Lea el archivo `gm_2008_region.csv` y asignelo al DataFrame `df`
-    df = pd.read_csv('C:/Users/jlopezl/OneDrive - Renting Colombia S.A/Archivos/Personal/Especialización/Ciencia de los datos/regresion-lineal-basica-gapminder-JuanesLopez/gm_2008_region.csv')
-    # df = pd.read_csv('gm_2008_region.csv')
+    # df = pd.read_csv('C:/Users/jlopezl/OneDrive - Renting Colombia S.A/Archivos/Personal/Especialización/Ciencia de los datos/regresion-lineal-basica-gapminder-JuanesLopez/gm_2008_region.csv')
+    df = pd.read_csv('gm_2008_region.csv')
 
     # Asigne a la variable los valores de la columna `fertility`
     X_fertility = df.fertility.values.reshape(-1,1)
